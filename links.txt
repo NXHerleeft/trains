@@ -1,0 +1,17 @@
+AI design:
+https://gamedev.stackexchange.com/questions/2194/new-to-creating-ai-where-to-start
+https://en.wikipedia.org/wiki/Strategy_pattern
+https://en.wikipedia.org/wiki/Finite-state_machine
+
+points to circle:
+https://stackoverflow.com/questions/32861804/how-to-calculate-the-centre-point-of-a-circle-given-three-points
+https://stackoverflow.com/questions/22791951/algorithm-to-find-an-arc-its-center-radius-and-angles-given-3-points
+
+Closest distance:
+https://stackoverflow.com/questions/34956128/finding-closest-vector-to-point
+
+rotate around point:
+https://stackoverflow.com/questions/4465931/rotate-rectangle-around-a-point#13208761
+
+vector to angle:
+https://stackoverflow.com/questions/35271222/getting-the-angle-from-a-direction-vector

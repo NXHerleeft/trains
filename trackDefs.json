@@ -1,0 +1,89 @@
+[
+    {
+        "type": "rail",
+        "name": "123AT",
+        "group": "nm",
+        "subs": [
+            {
+                "type": "straight",
+                "x0": 0,
+                "y0": 0,
+                "x1": 500,
+                "y1": 0,
+                "previous": "nm.tr.123CT.a"
+            },
+            {
+                "type": "straight",
+                "x0": 500,
+                "y0": 0,
+                "x1": 1000,
+                "y1": 0
+            }
+        ],
+        "next": "nm.tr.123BT",
+        "previous": "nm.tr.123CT"
+    },
+    {
+        "type": "rail",
+        "name": "123BT",
+        "group": "nm",
+        "subs": [
+            {
+                "type": "straight",
+                "x0": 1000,
+                "y0": 0,
+                "x1": 2000,
+                "y1": 0
+            }
+        ],
+        "next": "nm.sw.1",
+        "previous": "nm.tr.123AT"
+    },
+    {
+        "type": "switchNormal",
+        "group": "nm",
+        "length": 80,
+        "height": 6,
+        "splitPosition": 20,
+        "x": 2000,
+        "y": 0,
+        "name": "1",
+        "nextNormal": "nm.tr.123CT",
+        "nextReversed": "nm.tr.123DT",
+        "previous": "nm.tr.123BT"
+    },
+    {
+        "type": "rail",
+        "name": "123CT",
+        "group": "nm",
+        "subs": [
+            {
+                "type": "straight",
+                "x0": 2080,
+                "y0": 0,
+                "x1": 3000,
+                "y1": 0,
+                "next": "nm.tr.123AT.a"
+            }
+        ],
+        "next": "nm.tr.123AT",
+        "previous": "nm.sw.1"
+    },
+    {
+        "type": "rail",
+        "name": "123DT",
+        "group": "nm",
+        "subs": [
+            {
+                "type": "straight",
+                "x0": 2080,
+                "y0": 6,
+                "x1": 3000,
+                "y1": 6,
+                "next": "nm.tr.123AT.a"
+            }
+        ],
+        "next": "nm.tr.123AT",
+        "previous": "nm.sw.1"
+    }
+]
